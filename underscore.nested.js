@@ -1,6 +1,9 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @fileOverview Underscore.js slice array to bigger - levels array
+ * @see https://github.com/piecioshka/underscore.nested
+ * @requires {@link http://underscorejs.org/|Underscore.js}
+ * @license The MIT License
  * @example:
  *   _.nested([1, 2, 3, 4, 5], 2);
  *   // [[1, 2], [3, 4], [5]]
