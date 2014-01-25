@@ -1,6 +1,6 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @fileOverview Underscore.js slice array to bigger - levels array
+ * @fileOverview Underscore.js slice array to deep-levels array
  * @see https://github.com/piecioshka/underscore.nested
  * @requires {@link http://underscorejs.org/|Underscore.js}
  * @license The MIT License
