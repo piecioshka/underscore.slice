@@ -1,29 +1,29 @@
 {
-  "name": "underscore.nested",
-  "main": "underscore.nested.js",
-  "version": "1.0.0",
-  "homepage": "https://github.com/piecioshka/underscore.nested",
-  "authors": [
-    "Piotr Kowalski <piecioshka@gmail.com>"
-  ],
-  "description": "Underscore.js slice array to deep-levels array",
-  "keywords": [
-    "underscore",
-    "nested",
-    "array",
-    "deep-level",
-    "slice"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "app/bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "underscore": null
-  }
+    "name": "underscore.nested.js",
+    "main": "underscore.nested.js",
+    "version": "1.0.0",
+    "homepage": "https://github.com/piecioshka/underscore.nested.js",
+    "authors": [
+        "Piotr Kowalski <piecioshka@gmail.com>"
+    ],
+    "description": "Underscore.js slice array to deep-levels array",
+    "keywords": [
+        "underscore",
+        "nested",
+        "array",
+        "deep-level",
+        "slice"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "underscore": "latest"
+    }
 }
