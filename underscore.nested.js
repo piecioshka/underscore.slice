@@ -1,44 +1,67 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @fileOverview Underscore.js slice array to deep-levels array
- * @see https://github.com/piecioshka/underscore.nested.js
- * @requires {@link http://underscorejs.org/|Underscore.js}
+ * @fileOverview Underscore.js slice array to bigger - levels array
+ * @see https://github.com/piecioshka/underscore.nested
+ * @requires http://underscorejs.org/
  * @license The MIT License
- * @example:
- *   _.nested([1, 2, 3, 4, 5], 2);
- *   // [[1, 2], [3, 4], [5]]
  */
+
+// Example of _.nested
+// -------------------
+
+//     _.nested([1, 2, 3, 4, 5], 2); // [[1, 2], [3, 4], [5]]
+
 /*jslint nomen: true, indent: 4 */
-/*global _ */
-;(function (global) {
+/*global define */
+
+(function (root, factory) {
     'use strict';
 
-    // imports
-    var _ = global._;
+    if (typeof define !== 'undefined' && define.amd) {
+        define(['underscore'], factory);
+    } else {
+        factory(root._);
+    }
+}(this, function (_) {
+    'use strict';
+
+    /**
+     * Create array with passed deeps level.
+     *
+     * @param {Array} list
+     * @param {number} [size]
+     * @returns {Array}
+     */
+    function nested(list, size) {
+        list = list || [];
+        size = size || 2;
+
+        var nestedList = [];
+        var nestedItem = [];
+
+        // Iterate for each item on list.
+        _.each(list, function (item) {
+            // Push them to new list.
+            nestedItem.push(item);
+
+            // If list is fulled.
+            if (_.size(nestedItem) === size) {
+                // Push new list to new `Array`.
+                nestedList.push(nestedItem);
+                // Create new empty list.
+                nestedItem = [];
+            }
+        });
+
+        // Check we have more than 0 items, put them to `Array`.
+        if (_.size(nestedItem) !== 0) {
+            nestedList.push(nestedItem);
+        }
+
+        return nestedList;
+    }
 
     _.mixin({
-        nested: function (list, size) {
-            list = list || [];
-            size = size || 2;
-
-            var nestedList = [];
-            var nestedItem = [];
-
-            _.each(list, function (item) {
-                nestedItem.push(item);
-
-                if (_.size(nestedItem) === size) {
-                    nestedList.push(nestedItem);
-                    nestedItem = [];
-                }
-            });
-
-            if (_.size(nestedItem) !== 0) {
-                nestedList.push(nestedItem);
-            }
-
-            return nestedList;
-        }
+        nested: nested
     });
-
-}(this));
+}));
