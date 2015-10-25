@@ -1,5 +1,5 @@
 {
-    "name": "underscore.nested",
+    "name": "underscore.slice",
     "version": "1.1.0",
     "description": "Underscore.js slice array to deep-levels array",
     "license": "MIT",
@@ -10,11 +10,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/underscore.nested.git"
+        "url": "git+ssh://git@github.com/piecioshka/underscore.slice.git"
     },
     "keywords": [
         "underscore",
-        "nested",
+        "slice",
         "array",
         "deep-level",
         "slice"
@@ -31,5 +31,5 @@
     "devDependencies": {
         "underscore": "^1.8.3"
     },
-    "main": "underscore.nested.js"
+    "main": "underscore.slice.js"
 }

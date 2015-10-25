@@ -1,14 +1,14 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @fileOverview Underscore.js slice array to deep-levels array
- * @see https://github.com/piecioshka/underscore.nested
+ * @see https://github.com/piecioshka/underscore.slice
  * @license The MIT License
  */
 
-// Example of _.nested
+// Example of _.slice
 // -------------------
 
-//     _.nested([1, 2, 3, 4, 5], 2); // [[1, 2], [3, 4], [5]]
+//     _.slice([1, 2, 3, 4, 5], 2); // [[1, 2], [3, 4], [5]]
 
 (function (_) {
     'use strict';
@@ -20,7 +20,7 @@
      * @param {number} [size]
      * @returns {Array}
      */
-    function nested(list, size) {
+    function slice(list, size) {
         list = list || [];
         size = size || 2;
 
@@ -53,12 +53,12 @@
 
     if (typeof define !== 'undefined' && define.amd) {
         // Support AMD.
-        define(['underscore'], nested);
+        define(['underscore'], slice);
     } else if (typeof module !== 'undefined' && module.exports) {
         // Support CommonJS.
-        module.exports = nested;
+        module.exports = slice;
     } else {
         // Support browsers.
-        window._.nested = nested;
+        window._.slice = slice;
     }
 }());
