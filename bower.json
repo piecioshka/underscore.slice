@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/underscore.nested.js.git"
+        "url": "git+ssh://git@github.com/piecioshka/underscore.nested.git"
     },
     "keywords": [
         "underscore",
