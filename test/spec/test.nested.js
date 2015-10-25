@@ -1,4 +1,7 @@
-describe("nested", function () {
+var _ = require('underscore');
+_.nested = require('../../underscore.nested');
+
+describe('nested', function () {
     it('should exists in underscore', function () {
         expect(_.nested).not.toBeUndefined();
     });
