@@ -66,12 +66,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	/**
 	 * @author Piotr Kowalski <piecioshka@gmail.com> (http://piecioshka.pl)
 	 * @name underscore.slice
-	 * @description Underscore.js slice array to deep-levels array
-	 * @version 1.2.0
+	 * @description Plugin for Underscore.js: slice array to deep-levels array
+	 * @version 1.2.1
 	 * @license MIT
 	 * @example
-	 *
-	 *   _.slice([1, 2, 3, 4, 5], 2); // [[1, 2], [3, 4], [5]]
+	 *   // [[1, 2], [3, 4], [5]]
+	 *   _.slice([1, 2, 3, 4, 5], 2);
 	 */
 	
 	'use strict';

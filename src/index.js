@@ -5,8 +5,8 @@
  * @version $VERSION$
  * @license $LICENSE$
  * @example
- *
- *   _.slice([1, 2, 3, 4, 5], 2); // [[1, 2], [3, 4], [5]]
+ *   // [[1, 2], [3, 4], [5]]
+ *   _.slice([1, 2, 3, 4, 5], 2);
  */
 
 'use strict';
