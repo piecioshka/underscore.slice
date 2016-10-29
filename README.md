@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dt/underscore.slice.svg)
 ![](https://img.shields.io/npm/l/underscore.slice.svg)
 
-> Underscore.js slice array to deep-levels array
+> :hammer: Plugin for Underscore.js: slice array to deep-levels array
 
 <pre>
        .__  .__              
@@ -24,14 +24,11 @@ npm install underscore.slice
 ## Usage
 
 ```javascript
-
 var _ = require('underscore');
-var slice = require('../../../src/index');
-
+var slice = require('underscore.slice');
 _.mixin({ slice: slice });
 
 var list = [1, 2, 3, 4, 5];
-
 _.slice(list, 2); // [[1, 2], [3, 4], [5]]
 _.slice(list, 4); // [[1, 2, 3, 4], [5]]
 ```
