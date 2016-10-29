@@ -17,6 +17,7 @@
         "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls -v"
     },
     "devDependencies": {
+        "coveralls": "^2.11.14",
         "istanbul": "^0.4.5",
         "jasmine": "^2.5.2",
         "json-loader": "^0.5.4",
