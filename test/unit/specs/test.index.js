@@ -1,8 +1,12 @@
-var _ = require('underscore');
-_.slice = require('../../underscore.slice');
+'use strict';
 
-describe('slice', function () {
-    it('should exists in underscore', function () {
+var _ = require('underscore');
+var slice = require('../../../src/index');
+
+_.mixin({ slice: slice });
+
+describe('General', function () {
+    it('should extend underscore library', function () {
         expect(_.slice).not.toBeUndefined();
     });
 
@@ -10,7 +14,7 @@ describe('slice', function () {
         expect(_.isFunction(_.slice)).toBeTruthy();
     });
 
-    it('should works', function () {
+    it('should works fine', function () {
         expect(_.slice([1, 2])).toEqual([[1, 2]]);
         expect(_.slice([1, 2], 1)).toEqual([[1], [2]]);
         expect(_.slice([1, 2], 3)).toEqual([[1, 2]]);

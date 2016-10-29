@@ -1,16 +1,24 @@
 {
     "name": "underscore.slice",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Underscore.js slice array to deep-levels array",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
         "email": "piecioshka@gmail.com",
-        "url": "piecioshka.pl"
+        "url": "http://piecioshka.pl"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/underscore.slice.git"
+    "scripts": {
+        "clear": "rm -rf node_modules/",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "build": "webpack --profile"
+    },
+    "devDependencies": {
+        "jasmine": "^2.5.2",
+        "json-loader": "^0.5.4",
+        "string-replace-loader": "^1.0.5",
+        "underscore": "^1.8.3",
+        "webpack": "^1.13.3"
     },
     "keywords": [
         "underscore",
@@ -24,12 +32,9 @@
         "node_modules",
         "test"
     ],
-    "scripts": {
-        "clear": "rm -rf node_modules/",
-        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/underscore.slice.git"
     },
-    "devDependencies": {
-        "underscore": "^1.8.3"
-    },
-    "main": "underscore.slice.js"
+    "main": "dist/underscore.slice.js"
 }

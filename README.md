@@ -24,11 +24,18 @@ npm install underscore.slice
 ## Usage
 
 ```javascript
+
+var _ = require('underscore');
+var slice = require('../../../src/index');
+
+_.mixin({ slice: slice });
+
 var list = [1, 2, 3, 4, 5];
+
 _.slice(list, 2); // [[1, 2], [3, 4], [5]]
 _.slice(list, 4); // [[1, 2, 3, 4], [5]]
 ```
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org)
+[The MIT License](http://piecioshka.mit-license.org) @ 2014
