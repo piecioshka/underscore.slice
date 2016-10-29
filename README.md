@@ -1,8 +1,9 @@
-# underscore.slice
+# underscore.slice ([npm](https://www.npmjs.com/package/underscore.slice))
 
-![](https://img.shields.io/npm/v/underscore.slice.svg)
+[![npm version](https://badge.fury.io/js/underscore.slice.svg)](https://badge.fury.io/js/underscore.slice)
 ![](https://img.shields.io/npm/dt/underscore.slice.svg)
-![](https://img.shields.io/npm/l/underscore.slice.svg)
+[![Travis](https://img.shields.io/travis/piecioshka/underscore.slice.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/underscore.slice)
+[![Coverage Status](https://coveralls.io/repos/github/piecioshka/underscore.slice/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/underscore.slice?branch=master)
 
 > :hammer: Plugin for Underscore.js: slice array to deep-levels array
 

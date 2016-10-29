@@ -10,10 +10,14 @@
     },
     "scripts": {
         "clear": "rm -rf node_modules/",
+        "build": "webpack --profile",
+        "watch": "webpack -w",
         "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "build": "webpack --profile"
+        "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls -v"
     },
     "devDependencies": {
+        "istanbul": "^0.4.5",
         "jasmine": "^2.5.2",
         "json-loader": "^0.5.4",
         "string-replace-loader": "^1.0.5",

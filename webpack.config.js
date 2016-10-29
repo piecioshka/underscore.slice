@@ -11,7 +11,7 @@ module.exports = {
     },
 
     output: {
-        // library: '', // This is plugin.
+        // library: '', // This is a plugin.
         libraryTarget: 'umd',
         filename: '[name].js',
         path: './dist/'
