@@ -1,7 +1,9 @@
-# underscore.slice ([npm](https://www.npmjs.com/package/underscore.slice))
+# underscore.slice
 
+[![node version](https://img.shields.io/node/v/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
 [![npm version](https://badge.fury.io/js/underscore.slice.svg)](https://badge.fury.io/js/underscore.slice)
-![](https://img.shields.io/npm/dt/underscore.slice.svg)
+[![downloads count](https://img.shields.io/npm/dt/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
+[![license](https://img.shields.io/npm/l/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
 
 :hammer: Plugin for Underscore.js: slice array to deep-levels array
 
@@ -34,4 +36,4 @@ _.slice(list, 4); // [[1, 2, 3, 4], [5]]
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2014
+[The MIT License](https://piecioshka.mit-license.org) @ 2014
