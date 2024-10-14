@@ -23,6 +23,17 @@
         "underscore": "^1.8.3",
         "webpack": "^1.13.3"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/underscore.slice.git"
+    },
+    "files": [
+      "dist",
+      "src",
+      "index.js",
+      "package.json",
+      "README.md"
+    ],
     "keywords": [
         "underscore",
         "slice",
@@ -30,14 +41,5 @@
         "deep-level",
         "slice"
     ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "test"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/underscore.slice.git"
-    },
     "main": "dist/underscore.slice.js"
 }
