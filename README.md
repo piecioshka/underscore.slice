@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/underscore.slice.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml)
 
-:hammer: Plugin for Underscore.js: slice array to deep-levels array
+🔨 Plugin for Underscore.js: slice array to deep-levels array
 
 <pre>
        .__  .__
