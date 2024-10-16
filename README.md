@@ -3,6 +3,7 @@
 [![node version](https://img.shields.io/node/v/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
 [![npm version](https://badge.fury.io/js/underscore.slice.svg)](https://badge.fury.io/js/underscore.slice)
 [![downloads count](https://img.shields.io/npm/dt/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
+[![size](https://packagephobia.com/badge?p=underscore.slice)](https://packagephobia.com/result?p=underscore.slice)
 [![license](https://img.shields.io/npm/l/underscore.slice.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml)
 
