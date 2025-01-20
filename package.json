@@ -1,6 +1,6 @@
 {
     "name": "underscore.slice",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "description": "🔨 Plugin for Underscore.js: add `_.slice()`, which slice array to deep-levels array",
     "license": "MIT",
     "author": {
