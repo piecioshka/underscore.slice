@@ -7,28 +7,28 @@
 [![license](https://img.shields.io/npm/l/underscore.slice.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml)
 
-🔨 Plugin for Underscore.js: slice array to deep-levels array
+🔨 Plugin for Underscore.js: add `_.slice()`, which slice array to deep-levels array
 
-<pre>
+```
        .__  .__
   _____|  | |__| ____  ____
  /  ___/  | |  |/ ___\/ __ \
  \___ \|  |_|  \  \__\  ___/
 /____  >____/__|\___  >___  >
      \/             \/    \/
-</pre>
+```
 
-### Install
+## Usage
+
+Installation:
 
 ```bash
 npm install underscore.slice
 ```
 
-## Usage
-
 ```javascript
-var _ = require('underscore');
-var slice = require('underscore.slice');
+var _ = require("underscore");
+var slice = require("underscore.slice");
 _.mixin({ slice: slice });
 
 var list = [1, 2, 3, 4, 5];
