@@ -38,4 +38,4 @@ _.slice(list, 4); // [[1, 2, 3, 4], [5]]
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2026
+[The MIT License](https://piecioshka.mit-license.org) @ 2026
