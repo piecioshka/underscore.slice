@@ -5,7 +5,7 @@
 [![downloads count](https://img.shields.io/npm/dt/underscore.slice.svg)](https://www.npmjs.com/package/underscore.slice)
 [![size](https://packagephobia.com/badge?p=underscore.slice)](https://packagephobia.com/result?p=underscore.slice)
 [![license](https://img.shields.io/npm/l/underscore.slice.svg)](https://piecioshka.mit-license.org)
-[![github-ci](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.slice/actions/workflows/testing.yml)
+[![github-ci](https://github.com/piecioshka/underscore.slice/actions/workflows/ci.yml/badge.svg)](https://github.com/piecioshka/underscore.slice/actions/workflows/ci.yml)
 
 🔨 Plugin for Underscore.js: add `_.slice()`, which slice array to deep-levels array
 
